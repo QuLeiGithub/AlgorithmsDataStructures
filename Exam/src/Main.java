@@ -9,6 +9,11 @@ public class Main {
         printNum();
     }
 
+    /**
+     * @Description: 统计字符个数
+     * @author QuLei
+     * @date 2019-08-11 19:55
+     */
     private static void printCount(String str) {
         int numCount = 0;
         int apCount = 0;
@@ -32,15 +37,24 @@ public class Main {
         System.out.println(numCount + " " + apCount + " " + spaceCount + " " + otherCount);
     }
 
+    /**
+     * @Description: 用穷举算法打印所有的组合的数, 要求没有重复的数字
+     * @author QuLei
+     * @date 2019-08-11 19:52
+     */
     private static void printNum() {
         int arr[] = {1, 2, 3, 4};
         List<Integer> resultList = new ArrayList<>();
         int tem = 0;
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
-                for (int k = 0; k < arr.length; k++) {
-                    tem = arr[i] * 100 + arr[j] * 10 + arr[k];
-                    resultList.add(tem);
+                if (i != j) {
+                    for (int k = 0; k < arr.length; k++) {
+                        if (i != k && j != k) {
+                            tem = arr[i] * 100 + arr[j] * 10 + arr[k];
+                            resultList.add(tem);
+                        }
+                    }
                 }
             }
         }
