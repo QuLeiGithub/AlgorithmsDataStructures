@@ -19,7 +19,7 @@ public class Test {
     }
 
     static {
-        System.out.println("i======="+i);
+        System.out.println("i==" + i);
         i /= 3;
         System.out.println("the second:"+i);
     }
