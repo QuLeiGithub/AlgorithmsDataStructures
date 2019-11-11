@@ -1,4 +1,4 @@
-package cn.qulei.io;
+package cn.qulei.io.fileio;
 
 import java.io.*;
 
