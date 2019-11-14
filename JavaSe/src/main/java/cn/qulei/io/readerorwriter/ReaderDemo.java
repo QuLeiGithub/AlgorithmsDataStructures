@@ -15,8 +15,8 @@ public class ReaderDemo {
         try {
             reader = new FileReader("src/abc.txt");
 
-            int read = 0;
-            while ((read = reader.read()) != -1) {
+            int read;
+            while (-1 != (read = reader.read())) {
                 System.out.println((char) read);
             }
         } catch (Exception e) {
