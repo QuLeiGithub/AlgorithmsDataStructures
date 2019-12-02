@@ -6,7 +6,6 @@ import java.io.PrintStream;
 
 /**
  * 测试打印流类似于System.out.print
- *
  * @Author: QuLei
  * @CreateDate: 2019-11-18 22:37
  * @Version: 1.0
@@ -17,7 +16,7 @@ public class PrintStreamDemo {
         PrintStream printStream = null;
         try {
             printStream = new PrintStream(System.out);
-            printStream.println(1);
+            printStream.println(2);
         }catch (Exception e){
             e.printStackTrace();
         }
