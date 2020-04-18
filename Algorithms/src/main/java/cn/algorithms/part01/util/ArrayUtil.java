@@ -1,4 +1,4 @@
-package cn.algorithms.part01;
+package cn.algorithms.part01.util;
 
 import java.util.Arrays;
 
@@ -6,6 +6,19 @@ import java.util.Arrays;
  * @author TaoistQu
  */
 public class ArrayUtil {
+    /**
+     * 交换数组两位置上的值
+     *
+     * @param arr
+     * @param i
+     * @param j
+     */
+    public static void swap(int[] arr, int i, int j) {
+        arr[i] = arr[i] ^ arr[j];
+        arr[j] = arr[i] ^ arr[j];
+        arr[i] = arr[i] ^ arr[j];
+    }
+
     public static void comparator(int[] arr) {
         Arrays.sort(arr);
     }
@@ -64,12 +77,12 @@ public class ArrayUtil {
         return true;
     }
 
-    public static void printArray(int[] arr){
-        if(arr == null){
+    public static void printArray(int[] arr) {
+        if (arr == null) {
             return;
         }
-        for(int  i = 0 ; i < arr.length;i++){
-            System.out.print(arr[i]+" ");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
         }
         System.out.println();
     }

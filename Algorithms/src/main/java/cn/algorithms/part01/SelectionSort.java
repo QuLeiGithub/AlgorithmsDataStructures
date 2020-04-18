@@ -1,7 +1,7 @@
 package cn.algorithms.part01;
 
 
-import java.util.Arrays;
+import cn.algorithms.part01.util.ArrayUtil;
 
 /**
  * @author TaoistQu
