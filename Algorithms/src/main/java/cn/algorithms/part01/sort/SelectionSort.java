@@ -1,4 +1,4 @@
-package cn.algorithms.part01;
+package cn.algorithms.part01.sort;
 
 
 import cn.algorithms.part01.util.ArrayUtil;
@@ -13,7 +13,7 @@ public class SelectionSort {
      *
      * @param arr
      */
-    private static void selectionSort(int[] arr) {
+    public static void selectionSort(int[] arr) {
         if (arr == null || arr.length < 2) {
             return;
         }

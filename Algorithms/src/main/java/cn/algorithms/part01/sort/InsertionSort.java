@@ -1,4 +1,4 @@
-package cn.algorithms.part01;
+package cn.algorithms.part01.sort;
 
 import cn.algorithms.part01.util.ArrayUtil;
 
@@ -16,8 +16,8 @@ public class InsertionSort {
         }
         //外层拿数
         for (int i = 1; i < arr.length; i++) {
-            //内层比较
-            for (int j = i - 1; j >= 0 && arr[j] > arr[j+1]; j--) {
+            //内层比较交换
+            for (int j = i - 1; j >= 0 && arr[j] > arr[j + 1]; j--) {
                 ArrayUtil.swap(arr, j, j + 1);
             }
         }
@@ -28,12 +28,12 @@ public class InsertionSort {
         int maxSize = 100;
         int maxValue = 100;
         boolean succeed = true;
-        for(int  i= 0;i<testTime;i++ ){
-            int[] arr1 = ArrayUtil.generateRandomArray(maxSize,maxValue);
+        for (int i = 0; i < testTime; i++) {
+            int[] arr1 = ArrayUtil.generateRandomArray(maxSize, maxValue);
             int[] arr2 = ArrayUtil.copyArray(arr1);
             insertionSort(arr1);
             ArrayUtil.comparator(arr2);
-            if(!ArrayUtil.isEqual(arr1,arr2)){
+            if (!ArrayUtil.isEqual(arr1, arr2)) {
                 succeed = false;
                 break;
             }

@@ -1,4 +1,4 @@
-package cn.algorithms.part01;
+package cn.algorithms.part01.sort;
 
 import cn.algorithms.part01.util.ArrayUtil;
 
