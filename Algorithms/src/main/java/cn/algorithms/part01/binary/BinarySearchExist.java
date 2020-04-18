@@ -14,7 +14,7 @@ public class BinarySearchExist {
             return false;
         }
         int L = 0;
-        int R = sortedArr.length;
+        int R = sortedArr.length-1;
         int mid = 0;
         while (L < R) {
             // mid = (L+R) / 2  如果 L为10亿 R为18亿 时 (L+R)溢出
@@ -37,8 +37,5 @@ public class BinarySearchExist {
         boolean exist = exist(arr, 0);
         ArrayUtil.printArray(arr);
         System.out.println(exist);
-
     }
-
-
 }
