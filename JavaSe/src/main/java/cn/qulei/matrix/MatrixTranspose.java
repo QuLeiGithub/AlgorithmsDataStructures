@@ -15,16 +15,18 @@ public class MatrixTranspose {
                 matrix[i][j] = k++;
             }
         }
-        int[][] transpose = transpose(matrix);
+        int[][] transposedMatrix = transpose(matrix);
+        System.out.println("输出原矩阵：");
         print(matrix);
         System.out.println("-----------------");
-        print(transpose);
+        System.out.println("转置后的矩阵：");
+        print(transposedMatrix);
     }
 
     /**
      * 转置矩阵
      *
-     * @param matrix 带装置矩阵
+     * @param matrix 待转置矩阵
      * @return 转置后的矩阵
      */
     private static int[][] transpose(int[][] matrix) {
