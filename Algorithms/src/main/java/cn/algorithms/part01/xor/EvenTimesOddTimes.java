@@ -33,6 +33,7 @@ public class EvenTimesOddTimes {
                 onlyOne ^= arr[i];
             }
         }
+        //eor  为两个异或的结果  onlyOne 为其中一个  eor ^ onlyOne 为另一个
         System.out.println(onlyOne + " " + (eor ^ onlyOne));
     }
 
@@ -70,7 +71,6 @@ public class EvenTimesOddTimes {
 
         int[] arr2 = {4, 3, 4, 2, 2, 2, 4, 1, 1, 1, 3, 3, 1, 1, 1, 4, 2, 2};
         printOddTimesNum2(arr2);
-
 
         int bit1Counts = bit1Counts(14);
         System.out.println("一个数二进制中1的个数：" + bit1Counts);
