@@ -219,6 +219,4 @@ public class DoubleEndsQueueToStackAndQueue {
             value = data;
         }
     }
-
-
 }
