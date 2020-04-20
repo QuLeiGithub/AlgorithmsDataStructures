@@ -25,6 +25,7 @@ public class DeleteGivenValue {
         }
         Node pre = head;
         Node cur = head;
+        //这个实现的是从尾部加
         while (cur != null) {
             if (cur.value == num) {
                 pre.next = cur.next;
