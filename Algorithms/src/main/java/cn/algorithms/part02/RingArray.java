@@ -88,8 +88,8 @@ public class RingArray {
 
 
     public static void main(String[] args) {
-        //MyQueue myStack = new MyQueue(10);
-        MyStack myStack = new MyStack(10);
+        MyQueue myStack = new MyQueue(10);
+        //MyStack myStack = new MyStack(10);
         for (int i = 1; i <= 10; i++) {
             myStack.push(i);
         }
