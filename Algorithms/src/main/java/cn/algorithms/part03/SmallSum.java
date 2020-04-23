@@ -28,9 +28,9 @@ public class SmallSum {
         }
         int mid = L + ((R - L) >> 1);
 
-        return process(arr, L, mid) +
-                process(arr, mid + 1, R) +
-                merge(arr, L, mid, R);
+        return process(arr, L, mid) +  //左边产生的小和
+                process(arr, mid + 1, R) +  //右边产生的小和
+                merge(arr, L, mid, R);  //整体排好序后产生的小和
     }
 
     public static int merge(int[] arr, int L, int m, int R) {
