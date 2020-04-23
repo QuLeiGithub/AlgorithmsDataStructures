@@ -10,6 +10,7 @@ import cn.algorithms.part01.util.ArrayUtil;
 public class MergeSort {
     /**
      * 递归方式实现
+     * 时间复杂度  O(n*log(n)) T(N) = 2*T(N/2) + O(n)
      *
      * @param arr
      */
@@ -33,6 +34,8 @@ public class MergeSort {
     /**
      * 非递归版本
      *
+     * 时间复杂度 O(N*log(N))
+     *
      * @param arr
      */
     public static void mergeSort2(int[] arr) {
@@ -53,7 +56,7 @@ public class MergeSort {
                 L = R + 1;
             }
             //这个地方加 mergeSize > N /2是为了防止溢出，提前结束
-            if (mergeSize > N / 2) {
+            if (mergeSize > N >> 1) {
                 break;
             }
             mergeSize <<= 1;
