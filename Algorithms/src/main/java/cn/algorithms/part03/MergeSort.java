@@ -52,6 +52,7 @@ public class MergeSort {
                 merge(arr, L, M, R);
                 L = R + 1;
             }
+            //这个地方加 mergeSize > N /2是为了防止溢出，提前结束
             if (mergeSize > N / 2) {
                 break;
             }

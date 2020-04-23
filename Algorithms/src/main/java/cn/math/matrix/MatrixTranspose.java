@@ -1,4 +1,4 @@
-package cn.qulei.matrix;
+package cn.math.matrix;
 
 /**
  * 实现矩阵转置
