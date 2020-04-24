@@ -1,7 +1,7 @@
 package cn.algorithms.part01.binary;
 
 import cn.algorithms.part01.sort.SelectionSort;
-import cn.algorithms.part01.util.ArrayUtil;
+import cn.algorithms.util.ArrayUtil;
 
 /**
  * 二分查找数是否存在

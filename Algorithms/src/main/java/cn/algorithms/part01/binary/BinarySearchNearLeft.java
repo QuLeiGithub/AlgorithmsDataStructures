@@ -1,6 +1,6 @@
 package cn.algorithms.part01.binary;
 
-import cn.algorithms.part01.util.ArrayUtil;
+import cn.algorithms.util.ArrayUtil;
 
 import java.util.Arrays;
 

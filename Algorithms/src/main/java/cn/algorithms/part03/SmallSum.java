@@ -1,6 +1,6 @@
 package cn.algorithms.part03;
 
-import cn.algorithms.part01.util.ArrayUtil;
+import cn.algorithms.util.ArrayUtil;
 
 /**
  * 在一个数组中，一个数左边比它小的数的总和，叫数的小和，所有数的小和累加起来，叫数组小和。求数组的小和

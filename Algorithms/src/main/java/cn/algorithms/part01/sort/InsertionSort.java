@@ -1,8 +1,6 @@
 package cn.algorithms.part01.sort;
 
-import cn.algorithms.part01.util.ArrayUtil;
-
-import java.util.Arrays;
+import cn.algorithms.util.ArrayUtil;
 
 /**
  * 插入排序 时间复杂度 O(n^2)

@@ -1,6 +1,6 @@
 package cn.algorithms.part01.sort;
 
-import cn.algorithms.part01.util.ArrayUtil;
+import cn.algorithms.util.ArrayUtil;
 
 /**
  * 测试冒泡排序 时间复杂度为O(n^2)

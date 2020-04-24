@@ -1,6 +1,6 @@
 package cn.algorithms.part03;
 
-import cn.algorithms.part01.util.ArrayUtil;
+import cn.algorithms.util.ArrayUtil;
 
 /**
  * 归并排序

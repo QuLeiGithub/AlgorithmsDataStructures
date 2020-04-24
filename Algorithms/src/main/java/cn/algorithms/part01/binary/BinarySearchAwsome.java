@@ -1,6 +1,6 @@
 package cn.algorithms.part01.binary;
 
-import cn.algorithms.part01.util.ArrayUtil;
+import cn.algorithms.util.ArrayUtil;
 
 /**
  * 测试寻找在无序中的一个局部极小位置

@@ -1,4 +1,4 @@
-package cn.algorithms.part01.util;
+package cn.algorithms.util;
 
 import java.util.Arrays;
 

@@ -1,7 +1,7 @@
 package cn.algorithms.part01.sort;
 
 
-import cn.algorithms.part01.util.ArrayUtil;
+import cn.algorithms.util.ArrayUtil;
 
 /**
  * @author TaoistQu
