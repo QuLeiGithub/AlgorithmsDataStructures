@@ -1,8 +1,6 @@
 package cn.algorithms.part03;
 
 import cn.algorithms.util.ArrayUtil;
-import com.sun.org.apache.regexp.internal.RE;
-import org.omg.CORBA.PUBLIC_MEMBER;
 
 /**
  * @author TaoistQu
