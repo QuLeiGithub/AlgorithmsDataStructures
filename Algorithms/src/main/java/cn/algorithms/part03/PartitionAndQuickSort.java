@@ -143,7 +143,6 @@ public class PartitionAndQuickSort {
             }
         }
         System.out.println(succeed ? "Nice!" : "Oops!");
-
     }
 
 }
